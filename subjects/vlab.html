@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" type="png" href="../images/icon/main.png" />
+    <title>Virtual Lab</title>
+    <link rel="stylesheet" type="text/css" href="subjects.css" />
+    <script type="text/javascript" src="../script.js"></script>
+    <style type="text/css">
+      .button-container {
+        display: block;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 60px 80px;
+        border-radius: 30px;
+        color: white;
+        font-size: 30px;
+        width: 475px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px;
+        text-decoration: none;
+        transition: 0.3s ease;
+      }
+      .button:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header>
+      <div class="nav" id="nav">
+        <div id="learned-logo">
+          <a href="../index.html"
+            ><img src="../images/icon/main.png" style="width: 120px"
+          /></a>
+        </div>
+        <div class="switch-tab" id="switch-tab" onclick="switchTAB()">
+          <img src="../images/icon/menu.png" />
+        </div>
+        <ul id="list-switch">
+          <li>
+            <a href="../ReactorChainReactionVisual-master/index.html"
+              ><img src="../images/courses/d1.png" class="icon det" />Nuclear
+              Chain Reaction</a
+            >
+          </li>
+          <li>
+            <a href="../Simulator/index.html"
+              ><img
+                src="../images/courses/data.png"
+                class="icon det-last"
+              />Logic Gate Simulator</a
+            >
+          </li>
+          <li>
+            <a href="./research.html"
+              ><img
+                src="../images/courses/paper.png"
+                class="icon det-last"
+              />Research Papers</a
+            >
+          </li>
+        </ul>
+        <div class="search" id="search-switch">
+          <input type="text" placeholder="Search" class="srch" /><button
+            id="srchbtn"
+          >
+            <img src="../images/icon/search.png" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="title">
+      <span>Virtual Lab - Explore and Learn</span>
+      <div class="shortdesc">
+        <br />
+        <p>
+          Explore our Virtual Lab and engage in interactive learning
+          experiences. Discover a wide range of experiments and simulations to
+          enhance your understanding of various subjects. Join us now and unlock
+          a world of educational possibilities.
+        </p>
+        <br />
+        <div class="button-container">
+          <div class="cbox">
+            <div class="det button">
+              <a
+                href="../ReactorChainReactionVisual-master/index.html"
+                target="_blank"
+                >Nuclear Chain Reaction</a
+              >
+            </div>
+            <div class="det button">
+              <a
+                href="../Simulator/index.html"
+                target="_blank"
+                class="icon det-last"
+                >Logic Gate Simulator</a
+              >
+            </div>
+            <div class="det button">
+              <a href="#" target="_blank" class="icon det-last"
+                >Research Papers</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
